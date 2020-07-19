@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1001 Questions - Island</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/check-box.css">
+    <link rel="stylesheet" href="css/music.css">
+</head>
+<body>
+    <div class="quiz-over-modal">
+        <div class="content">
+            <h1>Хороший результат !</h1>
+            <p>Ты ответил на 
+                <span id="correct-answer"></span> из
+                <span id="number-of-all-questions-2"></span> вопроса
+            </p>
+            <button id="btn-try-again">Попробуй снова</button>
+        </div>
+    </div>
+    <div class="quiz-container" id="id1">
+         <div class="question-number">
+            <h3>Вопрос
+                <span id="numder-of-question"></span><!-- Текущий вопрос -->
+                из
+                <span id="number-of-all-questions"></span><!--Ответы вопросов-->
+            </h3>
+         </div>
+         <div id="question"></div>
+         <div class="options">
+            <div data-id="0" class="option option1"></div><!-- Варианты ответа-->
+            <div data-id="1" class="option option2"></div>
+            <div data-id="2" class="option option3"></div>
+            <div data-id="3" class="option option4"></div>
+         </div>
+         <div class="button">
+            <button id="btn-next">Next</button>
+         </div>
+         <div id="answers-tracker"><!--Круглишки-->
+
+         </div>
+    </div>
+
+    
+   <!-- SOCIAL PANEL HTML -->
+   <div class="social-panel-container">
+    <div class="social-panel">
+       
+        <p>Настройки</p>
+         
+          <div class="check-box-style">
+            <h4 class="text-h4">Сменить фон</h4>
+            <input type="checkbox" class="checkbox" id="check1" />
+            <label class="label" for="check1">
+                <div class="ball"></div>
+            </label>
+          </div>
+
+          <div class="check-box-style">
+            <h4 class="text-h4">Сменить цвет карточки</h4>
+            <input type="checkbox" class="checkbox" id="check2" />
+            <label class="label" for="check2">
+                <div class="ball"></div>
+            </label>
+          </div>
+
+          <div class="check-box-style">
+            <h4 class="text-h4">Скрыть панель с вопросами</h4>
+            <input type="checkbox" class="checkbox" id="To-hide-the-panel" />
+            <label class="label" for="To-hide-the-panel">
+                <div class="ball"></div>
+            </label>
+          </div>
+
+    </div>
+    </div>
+
+        <div class="social-panel-container-Мusic">
+            <div class="social-panel-Мusic">
+           
+                <p>Мusic</p>
+             
+            </div>
+        </div>
+
+    <button class="music">
+        music
+    </button>
+    <button class="floating-btn">
+        Options
+    </button>
+
+
+    <script src="js/JavaScript.js"></script>
+    <script src="js/Options.js"></script>
+    <script src="js/Music.js"></script>
+</body>
+
+</html>

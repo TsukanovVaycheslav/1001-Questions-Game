@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:  sans-serif;
+    background-image: url(../palm.png);
+}
+
+
+.quiz-container {
+    max-width: 700px;
+    min-height: 497px;
+    background-color: #fff;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.question-number h3 {
+    color: darkcyan;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#question {
+    font-size: 30px;
+    font-style: 24px;
+    color: #000;
+    margin: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.options {
+    margin-bottom: 15px;
+}
+
+.options div {
+    background: #ccc;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.options div:hover {
+    background-color: #ccccccaf;
+}
+
+.options div.correct { /*Правильный ответ*/
+    color: #fff;
+    background-color: green;
+}
+
+.options div.wrong { /*Не правильный ответ*/
+    color: #fff;
+    background-color: red;
+}
+
+.options div.disabled {
+    pointer-events: none;
+}
+
+.button #btn-next {
+    padding: 10px 50px;
+    background-color: darkcyan;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn-next:hover {
+    background-color: rgb(18, 173, 173);
+}
+.content {
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.quiz-over-modal {
+    display: none;
+}
+
+.quiz-over-modal.active {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 250px;
+    background: rgb(105, 182, 54);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#btn-try-again {
+    font-size: 18px;
+    padding: 14px;
+    background-color: rgb(194, 209, 63);
+    color: rgb(54, 9, 35);
+    cursor: pointer;
+}
+#btn-try-again:hover {
+    background-color: rgb(205, 219, 74);
+}
