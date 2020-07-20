@@ -18,7 +18,7 @@
 	background-color: #fff;
 	border-radius: 16px;
 	box-shadow: 0 16px 31px -17px rgba(0,31,97,0.6);
-	border: 5px solid #14c0a9be;
+	border: 5px solid #607fd3be;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -33,7 +33,7 @@
 }
 
 .social-panel-Мusic p {
-	background-color: #16ad99;
+	background-color: #607fd3be;
 	border-radius: 0 0 10px 10px;
 	color: #fff;
 	font-size: 14px;
@@ -50,9 +50,9 @@
 
 .music-btn {
 	border-radius: 26.5px;
-	background-color: #14c0a9;
-	border: 1px solid #24e4ca;
-	box-shadow: 0 16px 22px -17px #24e4ca;
+	background-color: #607fd3be;
+	border: 1px solid #647cbebe;
+	box-shadow: 0 16px 22px -17px;
 	color: #fff;
 	cursor: pointer;
 	font-size: 16px;
@@ -66,7 +66,7 @@
 
 .music-btn:hover,
 .floating-btn:hover  {
-	background-color: #17b39e;
+	background-color: #4c77ecbe;
 	bottom: 25px;
 }
 
