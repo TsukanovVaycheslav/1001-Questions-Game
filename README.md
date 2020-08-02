@@ -1,6 +1,6 @@
 # 1001-Questions-Game
 
-We are also going to be looking at:
+We use:
 
 * for loops
 * addEventListener
