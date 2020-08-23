@@ -10,8 +10,8 @@ body {
 
 
 .quiz-container {
-    max-width: 700px;
-    min-height: 497px;
+    max-width: 500px;
+    min-height: 307px;
     background-color: #fff;
     margin: 30px auto;
     border-radius: 10px;
@@ -35,7 +35,9 @@ body {
 }
 
 .options {
-    margin-bottom: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .options div {
